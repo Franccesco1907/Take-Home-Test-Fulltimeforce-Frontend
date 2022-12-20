@@ -31,7 +31,7 @@ function Commits() {
         setCommits(data);
       }
     } catch (e: any) {
-      console.log(`The following error has occurred: ${e.message}`);
+      console.error(`The following error has occurred: ${e.message}`);
       setError(e);
     }
   };
@@ -46,7 +46,7 @@ function Commits() {
         setCommits(data);
       }
     } catch (e: any) {
-      console.log(`The following error has occurred: ${e.message}`);
+      console.error(`The following error has occurred: ${e.message}`);
       setError(e);
     }
   };
