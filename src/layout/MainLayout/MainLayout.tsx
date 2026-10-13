@@ -1,5 +1,4 @@
 import githubLogo from "../../assets/images/githubLogo_white.png";
-import "../../index";
 export const MainLayout = () => {
   return (
     <>
